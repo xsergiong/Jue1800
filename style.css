@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #E4B7E5;
+}
+
+header{
+    height: fit-content;
+}
+
+.navbar{
+    display: flex;
+    background-color: #63458a;
+    width: 100%;
+    height: 120px;
+    color: #E4B7E5;
+}
+
+.navbar-logo-container{
+    margin-left: 1.5vh;
+}
+
+#navbar-logo{
+    font-size: 48px;
+    margin-top: 1.5vh;
+    margin-left: 1.25vh;
+}
+
+.navbar-title{
+    font-size: 24px;
+    position: relative;
+    bottom: 1.5vh;
+}
+
+.navbar-link-list{
+    margin-top: 5vh;
+    margin-left: 2vh;
+}
+
+.navbar-link-list a{
+    text-decoration: none;
+    padding: 2vh;
+    font-size: 18px;
+}
+
+#navbar-link-current{
+    font-size: 24px;
+}
+
+.navbar-personal-list{
+    width: fit-content;
+    margin-top: 4vh;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 5vh;
+}
+
+.navbar-personal-list a{
+    padding: 2px;
+}
+
+#navbar-personal-profile{
+    font-size: 48px;
+    margin-top: 0.5vh;
+    margin-left: 10px;
+}
+
+.pannel{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    margin-bottom: 50%;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #63458a;
+    display: flex;
+}
+
+.phone-number{
+    font-size: 24px;
+    margin-left: 2vh;
+    color: #E4B7E5;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#footer-institute{
+    font-size: 24px;
+    margin-left: 2vh;
+    color: #E4B7E5;
+    margin: auto;
+}
+
+.footer-icons{
+    font-size: 20px;
+    margin-right: 2vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-icons a{
+    padding: 0.6vh;
+}
